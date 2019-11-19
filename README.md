@@ -3,9 +3,12 @@ URL parsing and formatting library
 
 
 ## Usage
+```bash
+composer require dubovlab/url-parser-formatter
+```
 
 
-### Core functions:
+### Core functions
 ```php
 <?php
 
@@ -21,7 +24,7 @@ echo \url\format($components) . PHP_EOL;
 ```
 
 
-### Url class:
+### Url class
 ```php
 <?php 
 
