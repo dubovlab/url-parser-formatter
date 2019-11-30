@@ -1,9 +1,9 @@
 {
     "name": "dubovlab/url-parser-formatter",
     "description": "URL parsing and formatting library for PHP ^7.2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "ext-fileinfo": "*"
     },
     "require-dev": {
