@@ -29,7 +29,7 @@ function parse_and_format_all($str_or_list, ?string $base_uri = null)
 
 function parse_query($query)
 {
-    parse_str($query, $components);
+    parse_str((string)$query, $components);
     return is_array($components) ? $components : [];
 }
 
